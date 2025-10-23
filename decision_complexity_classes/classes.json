@@ -3,7 +3,6 @@
         "ALL": {
             "name": "ALL",
             "latex_name": "\\mathsf{ALL}",
-            "top": true,
             "description": "The class of all languages.",
             "information": "ALL is the complexity class of all languages. <br>It has shown that various non-uniform classes are equal to ALL, such as $\\mathsf{PP/rpoly}$, $\\mathsf{PostBQP/qpoly}$ [Aar04], $\\mathsf{QIP/qpoly}$ [Raz05] and $\\mathsf{PDQP/qpoly}$ [Aar18]. Additionally, note that $\\mathsf{coALL} = ALL$.",
             "complement":"ALL"
@@ -37,7 +36,7 @@
             "name": "QIP",
             "latex_name": "\\mathsf{QIP}",
             "description": "Quantum Interactive Proof",
-            "information": "The class QIP is the quantum computing analogue of the classical complexity class IP, <br> <br> <ul> <li></li></ul><br>For more check out: <a href='https://complexityzoo.net/Complexity_Zoo:Q#qip'>Complexity Zoo</a>"
+            "information": "The class QIP is the quantum computing analogue of the classical complexity class IP."
         },
         "PDQP": {
             "name": "PDQP",
