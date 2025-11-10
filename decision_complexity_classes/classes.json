@@ -628,6 +628,26 @@
             "latex_name":"\\mathsf{AP}",
             "description":"Alternating P",
             "information":"Class of decision problems solvable by a polynomial-time <i>alternating</i> Turing machine. An alternating Turing machine is a generalization of a non-deterministic Turing machine where except for the accept and reject states, each state is labeled with a $\\exists$ or $\\forall$ quantifier. The machine accepts if and only if they accept over the appropriate quantifier with which this state was labeled."
+        },
+        "NT":{
+            "name":"NT",
+            "latex_name":"\\mathsf{NT}",
+            "description":"Near-Testable",
+            "definition":"Class of decisiong problems where, given an input $x$, we may compute whether the input $x$ agrees with $x-1$ in polynomial time.",
+            "information":"Defined in [GHJY91] who also showed that either all of P, NT, NTstar and ParityP are equal or strictly nested.",
+            "links":[["Complexity Zoo", "N#nt"]],
+            "tags":["Time"],
+            "see_also":["NTstar"]
+        },
+        "NTstar":{
+            "name":"NTstar",
+            "latex_name":"\\mathsf{NT^*}",
+            "description":"Near-Testable with Forest Ordering",
+            "definition":"A general version of NT.",
+            "information":"Defined in [GHJY91] who also showed that either all of P, NT, NTstar and ParityP are equal or strictly nested.",
+            "links":[["Complexity Zoo", "N#ntstar"]],
+            "tags":["Time"],
+            "see_also":["NT"]
         }
     }
 }

@@ -597,13 +597,32 @@
                 "ISSN": "0304-3975",
                 "url": "http://dx.doi.org/10.1016/j.tcs.2005.03.053",
                 "DOI": "10.1016/j.tcs.2005.03.053",
-                "number": "2–3",
+                "number": "2-3",
                 "journal": "Theoretical Computer Science",
                 "publisher": "Elsevier BV",
                 "author": "Shi, Yaoyun",
                 "year": "2005",
                 "month": "nov",
-                "pages": "335–345"
+                "pages": "335-345"
+            }
+        },
+        {
+            "identifier": "GHJY91",
+            "citation_key": "Goldsmith_1991",
+            "entry_type": "article",
+            "fields": {
+                "title": "Near-Testable Sets",
+                "volume": "20",
+                "ISSN": "1095-7111",
+                "url": "http://dx.doi.org/10.1137/0220033",
+                "DOI": "10.1137/0220033",
+                "number": "3",
+                "journal": "SIAM Journal on Computing",
+                "publisher": "Society for Industrial & Applied Mathematics (SIAM)",
+                "author": "Goldsmith, Judy and Hemachandra, Lane A. and Joseph, Deborah and Young, Paul",
+                "year": "1991",
+                "month": "jun",
+                "pages": "506-523"
             }
         }
     ]

@@ -569,8 +569,17 @@
         {
             "type":"containment",
             "small":"P",
-            "large":"ParityP",
-            "relativizes":1
+            "large":"NT"
+        },
+        {
+            "type":"containment",
+            "small":"NT",
+            "large":"NTstar"
+        },
+        {
+            "type":"containment",
+            "small":"NTstar",
+            "large":"ParityP"
         },
         {
             "type":"containment",
