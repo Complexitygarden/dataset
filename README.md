@@ -11,3 +11,10 @@ This repository contains the data which is visualized in the complexity garden.
 - links: Useful links
 - tags: List of tags describing the type of class
 - see_also: Other related classes
+
+
+## Classes to add
+- Quantum Circuit Classes
+- UP, SPP
+- qq-QAM
+- StoqMA
