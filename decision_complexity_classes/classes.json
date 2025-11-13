@@ -5,7 +5,7 @@
             "latex_name": "\\mathsf{ALL}",
             "description": "The class of all languages.",
             "definition":"The complexity class which contains all languages.",
-            "information": "It has shown that various non-uniform classes are equal to ALL, such as $\\mathsf{PP/rpoly}$, $\\mathsf{PostBQP/qpoly}$ [Aar04], $\\mathsf{QIP/qpoly}$ [Raz05] and $\\mathsf{PDQP/qpoly}$ [Aar18]. Additionally, note that $\\mathsf{coALL} = ALL$.",
+            "information": "It has shown that various non-uniform classes are equal to ALL, such as $\\mathsf{PP/rpoly}$, $\\mathsf{PostBQP/qpoly}$ [Aar04a], $\\mathsf{QIP/qpoly}$ [Raz05] and $\\mathsf{PDQP/qpoly}$ [Aar18]. Additionally, note that $\\mathsf{coALL} = ALL$.",
             "complement":"ALL",
             "links":[["Complexity Zoo", "A#all"], ["Wikipedia", "https://en.wikipedia.org/wiki/ALL_(complexity)"]],
             "tags":[],
@@ -15,15 +15,24 @@
         "NONE": {
             "name": "NONE",
             "latex_name": "\\mathsf{NONE}",
-            "bottom": true,
-            "description": "The class of no languages.",
-            "information": "The 'empty set' of complexity theory, NONE contains no languages but is not equal to the complement of ALL since $\\mathsf{coALL} = ALL$ ."
+            "description": "$\\mathsf{\\emptyset}$",
+            "definition":"The class which does not contain any languages i.e. the empty set.",
+            "information": "Note that it is not equal to the complement of ALL since $\\mathsf{coALL} = ALL$.",
+            "complement":"None",
+            "links":[["Complexity Zoo", "N#none"]],
+            "tags":[],
+            "see_also":["ALL"]
         },
         "PP": {
             "name": "PP",
             "latex_name": "\\mathsf{PP}",
             "description": "Probabilistic Polynomial Time",
-            "information": "The class of decision problems solvable by an NP machine such that <br> <br> <ul> <li> If the answer is yes, then at least half of the computational paths accept </li> <li> If the answer is no, then less than half of the computational paths accept.</li></ul> Defined in [Gil74]. <br> Can be generalized to CH. <br> It has been shown that BPP [KSTT92], BQP [FR98] and $\\mathsf{YQP^*}$ [Yir24] are low for PP (i.e. $\\mathsf{PP}^{\\mathsf{YQP^*}}= PP$)."
+            "definition":"The class of decision problems solvable by an NP machine such that <br> <br> <ul> <li> If the answer is yes, then at least half of the computational paths accept </li> <li> If the answer is no, then less than half of the computational paths accept.</li></ul>",
+            "information": "Defined in [Gil74]. <br> Can be generalized to CH. <br> It has been shown that BPP [KSTT92], BQP [FR98] and $\\mathsf{YQP^*}$ [Yir24] are low for PP (i.e. $\\mathsf{PP}^{\\mathsf{YQP^*}}= PP$). Equal to BQP with postselection [Aar04b].",
+            "complement":"PP",
+            "links":[["Complexity Zoo", "P#pp"], ["Wikipedia", "https://en.wikipedia.org/wiki/PP_(complexity)"]],
+            "tags":["Time", "Probabilistic"],
+            "see_also":["PostBQP", "CH", "PsharpP"]
         },
         "QMA": {
             "name": "QMA",
@@ -294,7 +303,7 @@
             "name":"PostBQP",
             "latex_name":"\\mathsf{PostBQP}",
             "description":"BQP with Postselection",
-            "information":"BQP enhanced with the ability to <i>post-select</i> on an event. Formally, it is the set of decision problems solvable by a BQP machine such that: <ul><li>In a yes case, conditioned on measuring 1 in the first qubit, the second qubit outputs 1 with probability at least $2/3$.</li><li>In a no case, conditioned on measuring 1 in the first qubit, the second qubit outputs 1 with probability at most $1/3$.</li></ul> <br> Defined in [Aar04] as a quantum version of BPPPath."
+            "information":"BQP enhanced with the ability to <i>post-select</i> on an event. Formally, it is the set of decision problems solvable by a BQP machine such that: <ul><li>In a yes case, conditioned on measuring 1 in the first qubit, the second qubit outputs 1 with probability at least $2/3$.</li><li>In a no case, conditioned on measuring 1 in the first qubit, the second qubit outputs 1 with probability at most $1/3$.</li></ul> <br> Defined in [Aar04a] as a quantum version of BPPPath."
         },
         "EQP":{
             "name":"EQP",
