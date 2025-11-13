@@ -624,6 +624,44 @@
                 "month": "jun",
                 "pages": "506-523"
             }
+        },
+        {
+            "identifier": "KL98",
+            "citation_key": "Knill_1998",
+            "entry_type": "article",
+            "fields": {
+                "title": "Power of One Bit of Quantum Information",
+                "volume": "81",
+                "ISSN": "1079-7114",
+                "url": "http://dx.doi.org/10.1103/PhysRevLett.81.5672",
+                "DOI": "10.1103/physrevlett.81.5672",
+                "number": "25",
+                "journal": "Physical Review Letters",
+                "publisher": "American Physical Society (APS)",
+                "author": "Knill, E. and Laflamme, R.",
+                "year": "1998",
+                "month": "dec",
+                "pages": "5672-5675"
+            }
+        },
+        {
+            "identifier": "ASV06",
+            "citation_key": "Ambainis_2006",
+            "entry_type": "article",
+            "fields": {
+                "title": "Computing with highly mixed states",
+                "volume": "53",
+                "ISSN": "1557-735X",
+                "url": "http://dx.doi.org/10.1145/1147954.1147962",
+                "DOI": "10.1145/1147954.1147962",
+                "number": "3",
+                "journal": "Journal of the ACM",
+                "publisher": "Association for Computing Machinery (ACM)",
+                "author": "Ambainis, Andris and Schulman, Leonard J. and Vazirani, Umesh",
+                "year": "2006",
+                "month": "may",
+                "pages": "507-531"
+            }
         }
     ]
 }

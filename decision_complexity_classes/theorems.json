@@ -858,6 +858,16 @@
             "type":"equality",
             "a":"PSPACE",
             "b":"AP"
+        },
+        {
+            "type":"containment",
+            "small":"BPP",
+            "large":"DQC1"
+        },
+        {
+            "type":"containment",
+            "small":"DQC1",
+            "large":"BQP"
         }
     ],
     "oracle_separations":[

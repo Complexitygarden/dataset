@@ -648,6 +648,16 @@
             "links":[["Complexity Zoo", "N#ntstar"]],
             "tags":["Time"],
             "see_also":["NT"]
+        },
+        "DQC1":{
+            "name":"DQC1",
+            "latex_name":"\\mathsf{DQC1}",
+            "description":"One Clean Qubit",
+            "definition":"The class of decision problems solvable by a BPP machine which may run polynomially-many DQC1 circuits - quantum circuits whose input is a single qubit $\\ket{0}$ tensored with the maximally mixed state.",
+            "information":"Defined in [KL98]. Notice that intermediate measurements are not allowed as otherwise we would be able to change the initial state to $\\ket{0}$ and recover BQP. [ASV06] showed that if BPP can simulate DQC1, PH collapses to its third level.",
+            "links":[["Complexity Zoo", "D#dqc1"], ["Wikipedia", "https://en.wikipedia.org/wiki/One_clean_qubit"]],
+            "tags":["Quantum"],
+            "see_also":["BQP", "BPP"]
         }
     }
 }
