@@ -1,9 +1,9 @@
 {
     "class_list":{
         "ALL": {
-            "name": "ALLTESTTEST",
+            "name": "ALL",
             "latex_name": "\\mathsf{ALL}",
-            "description": "The class of all languages.",
+            "description": "The class of all TESTTESTTESTTESTTESTTEST languages.",
             "definition":"The complexity class which contains all languages.",
             "information": "It has shown that various non-uniform classes are equal to ALL, such as $\\mathsf{PP/rpoly}$, $\\mathsf{PostBQP/qpoly}$ [Aar04a], $\\mathsf{QIP/qpoly}$ [Raz05] and $\\mathsf{PDQP/qpoly}$ [Aar18]. Additionally, note that $\\mathsf{coALL} = ALL$.",
             "complement":"ALL",
