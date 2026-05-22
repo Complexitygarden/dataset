@@ -1,4 +1,4 @@
-# Complexity Garden Dataset
+# Complexity Garden Community Dataset
 
 This repository contains the data which is visualized in the complexity garden.
 
