@@ -1,7 +1,7 @@
 {
     "class_list":{
         "ALL": {
-            "name": "ALL",
+            "name": "ALLTESTTEST",
             "latex_name": "\\mathsf{ALL}",
             "description": "The class of all languages.",
             "definition":"The complexity class which contains all languages.",
