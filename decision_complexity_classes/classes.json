@@ -220,7 +220,7 @@
       "name": "NP",
       "latex_name": "\\mathsf{NP}",
       "description": "Non-deterministic Polynomial Time",
-      "definition": "This is a test of the community editing feature",
+      "definition": "This is another test",
       "information": "",
       "complement": "coNP",
       "links": [
