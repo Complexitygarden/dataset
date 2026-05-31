@@ -296,7 +296,7 @@
       "name": "PSPACE",
       "latex_name": "\\mathsf{PSPACE}",
       "description": "Polynomial Space",
-      "definition": "The class of decision problems solvable by a Turing machine with polynomial space.",
+      "definition": "The class of decision problems solvable by a Turing machine restricted to polynomial space.",
       "information": "One of the key open problems is whether P and PSPACE may be separated.",
       "complement": "PSPACE",
       "links": [
@@ -315,7 +315,8 @@
       "see_also": [
         "NPSPACE",
         "IP"
-      ]
+      ],
+      "references": []
     },
     "EXP": {
       "name": "EXP",
