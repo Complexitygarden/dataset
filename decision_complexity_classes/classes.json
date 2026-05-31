@@ -221,7 +221,7 @@
       "latex_name": "\\mathsf{NP}",
       "description": "Non-deterministic Polynomial Time",
       "definition": "The class of decision problems for which 'yes' answers are efficiently verifiable. Specifically: <br> <ul> <li> There exists a proof for all 'yes' instances such that the verifier accepts wih certainty. </li> <li>If an input is a 'no' instance, then the verifier rejects for all proofs. </li></ul>",
-      "information": "",
+      "information": "This class is very useful",
       "complement": "coNP",
       "links": [
         [
@@ -241,7 +241,8 @@
         "P",
         "coNP",
         "MA"
-      ]
+      ],
+      "references": []
     },
     "SZK": {
       "name": "SZK",
