@@ -4,7 +4,7 @@
       "name": "ALL",
       "latex_name": "\\mathsf{ALL}",
       "description": "The class of all languages.",
-      "definition": "The complexity class which contains all languages.",
+      "definition": "The complexity class which contains all TESTTESTTESTTESTTESTTEST languages.",
       "information": "It has shown that various non-uniform classes are equal to ALL, such as $\\mathsf{PP/rpoly}$, $\\mathsf{PostBQP/qpoly}$ [Aar04a], $\\mathsf{QIP/qpoly}$ [Raz05] and $\\mathsf{PDQP/qpoly}$ [Aar18]. Additionally, note that $\\mathsf{coALL} = ALL$.",
       "complement": "ALL",
       "links": [
@@ -220,7 +220,7 @@
       "name": "NP",
       "latex_name": "\\mathsf{NP}",
       "description": "Non-deterministic Polynomial Time",
-      "definition": "This is a third test",
+      "definition": "The class of decision problems for which 'yes' answers are efficiently verifiable. Specifically: <br> <ul> <li> There exists a proof for all 'yes' instances such that the verifier accepts wih certainty. </li> <li>If an input is a 'no' instance, then the verifier rejects for all proofs. </li></ul>",
       "information": "",
       "complement": "coNP",
       "links": [
@@ -241,8 +241,7 @@
         "P",
         "coNP",
         "MA"
-      ],
-      "references": []
+      ]
     },
     "SZK": {
       "name": "SZK",
