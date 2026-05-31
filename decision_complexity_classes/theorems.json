@@ -65,12 +65,6 @@
     },
     {
       "type": "containment",
-      "subset": "NP",
-      "superset": "MA",
-      "relativizes": 1
-    },
-    {
-      "type": "containment",
       "subset": "MA",
       "superset": "QCMA",
       "relativizes": 1
