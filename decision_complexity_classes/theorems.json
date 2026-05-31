@@ -65,6 +65,12 @@
     },
     {
       "type": "containment",
+      "subset": "NP",
+      "superset": "MA",
+      "relativizes": 1
+    },
+    {
+      "type": "containment",
       "subset": "MA",
       "superset": "QCMA",
       "relativizes": 1
@@ -532,6 +538,11 @@
       "type": "containment",
       "subset": "NQP",
       "superset": "A0PP"
+    },
+    {
+      "type": "containment",
+      "subset": "NP",
+      "superset": "NQP"
     },
     {
       "type": "containment",
