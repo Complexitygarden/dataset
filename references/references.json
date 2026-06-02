@@ -994,6 +994,25 @@
                 "month": "July",
                 "pages": "79â€“84"
             }
+        },
+        {
+            "identifier": "PY84",
+            "citation_key": "Papadimitriou_1984",
+            "entry_type": "article",
+            "fields": {
+                "title": "The complexity of facets (and some facets of complexity)",
+                "volume": "28",
+                "ISSN": "0022-0000",
+                "url": "http://dx.doi.org/10.1016/0022-0000(84)90068-0",
+                "DOI": "10.1016/0022-0000(84)90068-0",
+                "number": "2",
+                "journal": "Journal of Computer and System Sciences",
+                "publisher": "Elsevier BV",
+                "author": "Papadimitriou, C.H. and Yannakakis, M.",
+                "year": "1984",
+                "month": "Apr",
+                "pages": "244-259"
+            }
         }
     ]
 }
