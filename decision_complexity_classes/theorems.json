@@ -1083,6 +1083,11 @@
             "type":"containment",
             "subset":"DP",
             "superset":"Pi2"
+        },
+        {
+            "type":"containment",
+            "subset":"DP",
+            "superset":"Sigma2"
         }
     ],
     "oracle_separations":[

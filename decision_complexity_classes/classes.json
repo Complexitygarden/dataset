@@ -2690,7 +2690,7 @@
       "name":"DP",
       "latex_name": "\\mathsf{DP}",
       "description":"Difference Polynomial Time",
-      "definition":"Class of languages $L$ such that there exist two languages $L_1 \\in NP$ and $L_2 \\in coNP$ such that $L = L_1 \\cap L_2$.",
+      "definition":"Class of languages ${L}$ such that there exist two languages $L_1 \\in $NP and $L_2 \\in $coNP such that ${L} = L_1 \\cap L_2$.",
       "information":"Defined in [PY84]. Note that this is not the same as NPcapcoNP. Multiple variants of NP-complete problems are DP-complete, such as Exact TSP, Critical Hamilton Path, Unique SAT and SAT-UNSAT.",
       "complement":"",
       "links":[["Complexity Zoo", "D#dp"]],
