@@ -14,12 +14,16 @@ This repository contains the data which is visualized in the complexity garden.
 
 
 ## Classes to add
-- Quantum Circuit Classes, CC
-- UP, SPP, WPP
+- Quantum Circuit Classes, CC, SC, ACC0
+- UP, SPP, WPP, FewP
 - PR
 - FewP
 - ONP
-- QSZK
+- QSZK, NISZK, PZK
+- DeltaP2, Sigma3
+- EXPSPACE
+- AL
+- FPT, W[1]
 
 ## Classes to expand upon
 - AH
