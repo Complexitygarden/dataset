@@ -1093,6 +1093,11 @@
             "type":"containment",
             "subset":"DP",
             "superset":"PP"
+        },
+        {
+            "type":"equality",
+            "a":"P",
+            "b":"AL"
         }
     ],
     "oracle_separations":[

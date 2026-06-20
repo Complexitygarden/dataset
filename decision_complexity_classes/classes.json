@@ -2288,7 +2288,8 @@
       ],
       "see_also": [
         "PSPACE",
-        "P"
+        "P",
+        "AL"
       ]
     },
     "NT": {
@@ -2696,6 +2697,17 @@
       "links":[["Complexity Zoo", "D#dp"]],
       "tags":[],
       "see_also":["NP", "NPcapcoNP"]
+    },
+    "AL":{
+      "name":"AL",
+      "latex_name":"\\mathsf{AL}",
+      "description":"Alternating L",
+      "definition":"AP, except with logspace instead of polynomial time.",
+      "information":"",
+      "complement":"",
+      "links":[["Complexity Zoo", "A#al"]],
+      "tags":[],
+      "see_also":["AP", "P"]
     }
   }
 }
