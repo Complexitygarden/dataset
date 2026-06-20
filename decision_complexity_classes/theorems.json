@@ -861,7 +861,7 @@
         },
         {
             "type":"equality",
-            "a":"PSPACE",
+            "a":"EXP",
             "b":"AP"
         },
         {
