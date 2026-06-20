@@ -1098,6 +1098,11 @@
             "type":"equality",
             "a":"P",
             "b":"AL"
+        },
+        {
+            "type":"equality",
+            "a":"APSPACE",
+            "b":"EXP"
         }
     ],
     "oracle_separations":[

@@ -2707,7 +2707,18 @@
       "complement":"",
       "links":[["Complexity Zoo", "A#al"]],
       "tags":[],
-      "see_also":["AP", "P"]
+      "see_also":["AP", "P", "APSPACE"]
+    },
+    "APSPACE":{
+      "name":"APSPACE",
+      "latex_name":"\\mathsf{APSPACE}",
+      "description":"Alternating PSPACE",
+      "definition":"AP, except with polynomial space instead of time.",
+      "information":"",
+      "complement":"",
+      "links":[["Complexity Zoo", "A#apspace"]],
+      "tags":[],
+      "see_also":["AP", "PSPACE", "AL"]
     }
   }
 }
